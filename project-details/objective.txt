@@ -1,0 +1,3 @@
+
+
+Practicing Typescirpt along with JEST, and creating POCs.

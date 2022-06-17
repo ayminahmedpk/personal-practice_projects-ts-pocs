@@ -1,0 +1,4 @@
+
+0.0.1:
+  - Set up TS + JEST and tested it out
+  - Init
