@@ -1,6 +1,6 @@
 "use strict";
 describe('Empty describe', () => {
     test('Empty test', () => {
-        console.log('From jest');
+        console.log('Hi from Typescript and JEST');
     });
 });
