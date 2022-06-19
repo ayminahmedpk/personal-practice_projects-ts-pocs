@@ -14,7 +14,11 @@ const basicObject = {
     name: 'John',
     age: 30,
 };
-// For nested objects, look towards type difinitions or interfaces
+const nestedObject = {
+    name: 'Joe',
+    age: 35,
+    nestedObj: { nestedProperty: 'Nested' }
+};
 /*
 * Arrays can hold many (numbered) values of the same type.
 * Arrays can made to hold values of different types, by making that array be of a

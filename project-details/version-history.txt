@@ -1,10 +1,20 @@
 
+
+0.04:
+  - Generics
+  - Interfaces
+  - Classes
+  - Type aliases / Custom types
+
+
 0.03:
   - TS special techniques
   - Function
 
+
 0.0.2:
   - TS basics and types
+
 
 0.0.1:
   - Set up TS + JEST and tested it out

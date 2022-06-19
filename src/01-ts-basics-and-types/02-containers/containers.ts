@@ -17,13 +17,23 @@ Use 'any' for that.
 
 const basicObject: {
   name: string,
-  age: number
+  age: number,
 } = {
   name : 'John' ,
   age  : 30     ,
 }
 
-// For nested objects, look towards type difinitions or interfaces
+const nestedObject: {
+  name: string,
+  age: number,
+  nestedObj: {
+    nestedProperty: string,
+  }
+} = {
+  name: 'Joe',
+  age: 35,
+  nestedObj: {nestedProperty: 'Nested'}
+};
 
 
 
