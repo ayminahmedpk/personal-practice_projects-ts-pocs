@@ -1,4 +1,8 @@
 
+0.03:
+  - TS special techniques
+  - Function
+
 0.0.2:
   - TS basics and types
 
