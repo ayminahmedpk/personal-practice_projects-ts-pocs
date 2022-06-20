@@ -29,3 +29,8 @@ let mouseEvent: 'click' | 'dblclick' | 'mouseup' | 'mousedown';
 // Assigning a bigint:
 // const big : bigint = 9007199254740991n;
 // BigInt literals are not available when targeting lower than ES2020.
+
+
+
+// Adding an ! at the end:
+// Tells TS that this variable's value will never be null.

@@ -2,6 +2,26 @@
 
 exports = {};
 
+///////
+// You can declare a type for functions.
+// This will hold the types of input parameters, and the type of return
+// parameter.
+// The arrow syntax makes it easy., eg:
+//          let myFunction: (number, string) => string;
+// later, we can add an implementation:
+//    myFunction = (n1: number, n2: number) => { return (n1+n2).toString(); }
+//
+///////
+// Callback functions expected as parameters? If you define them clearly during
+// thefunction definition (easier using arrow syntax), then during actual
+// calling, an anonymous function you create will have the benefit of ts supprt.
+///////
+
+
+
+
+
+
 // Functions need a types for parameters and return values
 function madd(n1: number, n2:number): number {
   return n1 + n2;

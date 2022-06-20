@@ -73,6 +73,9 @@ let simpleTuple: [string, number] = ['John', 30];
 
 let optionalTuple: [string, number, string?] = ['John', 30];
 
+// Know that tuples have an issue - you can use array.push and get around
+// typechecking. Keep that in mind.
+
 
 
 

@@ -1,4 +1,5 @@
-
+// Usually, interfaces are used with objects/classes.
+// Usually, types are used with functions.
 
 exports = {};
 

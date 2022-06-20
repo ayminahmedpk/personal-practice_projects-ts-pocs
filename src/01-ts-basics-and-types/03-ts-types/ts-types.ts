@@ -15,19 +15,40 @@ let thing:any;
 
 
 /*
+'unknown'
+Similar to any, but while we can assign an 'any' value to any other variable
+and lose that variable's ts support, we can't assign an 'unknown' type value
+to just any other variable.
+
+The only way to assign an 'unknown' type to a normal typed variable is to cast
+the 'unknown' type variable into the other variable.
+
+without casting, 'unknown' types can only be assigned to other 'unknown' types,
+or 'any' types.
+*/
+
+
+
+
+/*
 'never'
 Never is used on an item which will never have a value.
 More common to see it used on functions that will never return anything,
 like service worker, infinite loop functions, error throwing function, etc.
 */
 let loop = function forever():never { while (true) { console.log('Hello'); } }
+// Void can do the same, by ignoring the return value
+// Never can make things clearer to other developers that this WON'T end
 
 
 /*
 'void'
 Nothing. Usually used to declare that function will never return anything.
+Actually, TS won't complain if you return anything - it will just IGNORE it.
 */
 let voidFunction = (n1: number):void => {console.log(n1);}
+// Note that an empty return statement "return;" returns 'undefined'.
+// Keep that in mind.
 
 
 /*

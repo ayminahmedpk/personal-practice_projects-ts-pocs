@@ -1,13 +1,17 @@
 
 
-0.04:
+0.0.5:
+  - Additions (no decorators)
+
+
+0.0.4:
   - Generics
   - Interfaces
   - Classes
   - Type aliases / Custom types
 
 
-0.03:
+0.0.3:
   - TS special techniques
   - Function
 

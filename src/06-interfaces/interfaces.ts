@@ -1,3 +1,9 @@
+// Usually, interfaces are used with objects/classes.
+// Usually, types are used with functions.
+
+
+
+
 
 
 // Items can be made to conform to interfaces.
@@ -84,6 +90,7 @@
 
 
 // Interfaces can be made to inherit from other interfaces.
+// An interface can actually inherit from multiple interface.
 // Just use the 'extends' keyword, in a manner similar to class inheritance.
 
 

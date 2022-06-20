@@ -65,6 +65,16 @@ Creating a class with modifiers (shortened syntax:)
 //       return `${this.firstName} ${this.lastName}`;
 //   }
 // }
+
+// In fact, looking elsewhere, the shorthand can be even shorter:
+Creating a class with modifiers (shortest syntax:)
+// class Person {
+//   constructor(protected ssn: string, private firstName: string, private lastName: string) {}
+//   getFullName(): string { return `${this.firstName} ${this.lastName}`; }
+// }
+// 
+// Apparently, you can skip the 'this.x = x' statements inside the constructor
+// as well.
  */
 
 
@@ -93,3 +103,6 @@ Creating a class with modifiers (shortened syntax:)
 //   * An abstract class can't be instantiated - only inherited from
 //   * To be instantiated, an inheriting class must have implemented all
 //     abstract methods
+//
+// Just remember the syntax - you just provide the method signature when you
+// create an abstract method.
